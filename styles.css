@@ -166,3 +166,9 @@ img { display: block; max-width: 100%; height: auto; }
 @media (prefers-reduced-motion: reduce) {
   .mq span { animation: none; padding-left: 12px; }
 }
+
+/* ---------- Promotion tables ---------- */
+.table-wrap { overflow-x: auto; margin: 10px 0; }
+.seo table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.seo th { background: linear-gradient(180deg, #0b6b45, #063a31); color: var(--mint); text-align: left; padding: 8px; }
+.seo td { padding: 8px; border: 1px solid var(--line); vertical-align: top; }
